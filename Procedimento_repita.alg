@@ -1,11 +1,11 @@
 Algoritmo "procedSomaSub"
-// Disciplina   : [Lógica de Programação]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Hilton Elias
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/02/2026
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
 n1, n2, n3 : real
 resp: inteiro
@@ -14,7 +14,7 @@ procedimento Somar2()
 Var // variaveis do procedimento
 
 inicio // inicio do procedimento
-    Escreval("A soma é: ", n1+n2)
+    Escreval("A soma Ã©: ", n1+n2)
 fimprocedimento
 
 
@@ -22,7 +22,7 @@ procedimento Somar3()
 Var // variaveis do procedimento
 
 inicio // inicio do procedimento
-    Escreval("A soma é: ", n1+n2+n3)
+    Escreval("A soma Ã©: ", n1+n2+n3)
 fimprocedimento
 
 
@@ -30,7 +30,7 @@ procedimento Sub2()
 Var // variaveis do procedimento
 
 inicio // inicio do procedimento
-    Escreval("A subtração é: ", n1-n2)
+    Escreval("A subtraÃ§Ã£o Ã©: ", n1-n2)
 fimprocedimento
 
 
@@ -38,7 +38,7 @@ procedimento Sub3()
 Var // variaveis do procedimento
 
 inicio // inicio do procedimento
-    Escreval("A subtração é: ", n1-n2-n3)
+    Escreval("A subtraÃ§Ã£o Ã©: ", n1-n2-n3)
 fimprocedimento
 
 
@@ -56,28 +56,28 @@ escreval("# 3 - para subtrair N1 - N2         #")
 escreval("# 4 - para subtrair N1 - N2 - N3    #")
 escreval("# 5 - para sair                     #")
 escreval("#####################################")
-escreva("Digite sua Opção:            ")
+escreva("Digite sua OpÃ§Ã£o:            ")
 
 fimprocedimento
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
 
-escreva("Digite o 1º numero: ")
+escreva("Digite o 1Âº numero: ")
 leia(n1)
-escreva("Digite o 2º numero: ")
+escreva("Digite o 2Âº numero: ")
 leia(n2)
-escreva("Digite o 3º numero: ")
+escreva("Digite o 3Âº numero: ")
 leia(n3)
 
  repita
       limpatela
- escreva("1º Numero =", N1, ", ")
- escreva("2ºNumero =", N2, " e ")
- escreval("3ºNumero =", N3, ".")
+ escreva("1Âº Numero =", N1, ", ")
+ escreva("2ÂºNumero =", N2, " e ")
+ escreval("3ÂºNumero =", N3, ".")
  escreval("")
        Opcao()
       leia(resp)
@@ -95,7 +95,9 @@ leia(n3)
                   Sub3()
                senao
                   se resp <> 5 entao
+                     timer 600 on
                      escreval("Opcao invalida!")
+                     timer 0 off
                   fimse
                fimse
             fimse
@@ -104,8 +106,8 @@ leia(n3)
 
       se (resp >= 1) e (resp <= 4) entao
          escreval()
-         escreval("Digite 0 para Opções ou 5 para sair:")
-         escreva("Digite sua Opção:")
+         escreval("Digite 0 para OpÃ§Ãµes ou 5 para sair:")
+         escreva("Digite sua OpÃ§Ã£o:")
          leia(resp)
       fimse
 
@@ -113,4 +115,5 @@ leia(n3)
    escreval("Saindo...")
 
 Fimalgoritmo
+
 
