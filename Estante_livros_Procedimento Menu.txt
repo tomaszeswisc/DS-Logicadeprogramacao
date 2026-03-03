@@ -1,0 +1,13 @@
+procedimento mostrar_menu()
+
+inicio
+
+   escreval
+   escreval("========= MENU =========")
+   escreval("1 - Mostrar livros")
+   escreval("2 - Emprestar livro")
+   escreval("3 - Devolver livro")
+   escreval("0 - Sair")
+   escreval("========================")
+   
+fimprocedimento
