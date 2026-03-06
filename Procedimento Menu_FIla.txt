@@ -1,0 +1,16 @@
+// Procedimento Mostrar Menu
+
+procedimento menu()
+
+inicio
+
+   escreval
+   escreval("=========== MENU FILA ===========")
+   escreval("1 - Adicionar numero na fila (Enfileirar)")
+   escreval("2 - Mostrar fila")
+   escreval("3 - Remover numero da fila (Desenfileirar)")
+   escreval("4 - Mostrar proximo da fila")
+   escreval("0 - Sair")
+   escreval("=================================")
+
+fimprocedimento
